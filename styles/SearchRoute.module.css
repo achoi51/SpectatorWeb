@@ -1,0 +1,33 @@
+#main {
+	width: 94vw;
+	max-width: 1000px;
+	margin: auto;
+}
+
+#heading {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+
+#returned_staff {
+	height: 30vh;
+	overflow-y: scroll;
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid var(--primary);
+	padding: 10px;
+}
+
+#returned_staff div {
+	flex: 50%;
+}
+
+@media screen and (max-width: 800px) {
+	#returned_staff div {
+		flex: 100%;
+	}
+}
+
+#articles_found_label {
+	margin-top: 2rem;
+}
